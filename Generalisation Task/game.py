@@ -122,7 +122,7 @@ basic_experment = {b: c for b, c in zip(make_blocks(conditions, 20, 60), conditi
 conditions = [(False, 30), (True, 'sudden', 30, 30), (False, 30), 
               (False, 60), (True, 'sudden', 30, 60), (False, 60), 
               (False, 45), (True, 'sudden', 30, 45), (False, 45), 
-              (False, 130), (True, 'sudden', 30, 120), (False, 130)]
+              (False, 130), (True, 'sudden', 30, 130), (False, 130)]
 generalisation_experiment = {b: c for b, c in zip(make_blocks(conditions, 20, 60), conditions)}
 
 conditions = [(False, 0), (True, 'sudden', 30, 0), (False, 0), (True, 'sudden', 30, 0), (False, 0),
