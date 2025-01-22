@@ -274,10 +274,10 @@ while running:
     
     if args.experiment_design == 'fingers':
         font = pygame.font.Font(None, 45)
-        if attempts < 25:
+        if attempts < 180:
             finger_text = font.render(f"Use your Index finger Only!", True, black)
             screen.blit(finger_text, (WIDTH//2 - 200, 90))
-        elif attempts == 25:
+        elif attempts == 180:
             finger_text = font.render(f"Use your Middle finger Now!", True, black)
             text_rect = finger_text.get_rect(center=(START_POSITION))
             screen.blit(finger_text, text_rect)
